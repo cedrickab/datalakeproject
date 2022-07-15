@@ -22,7 +22,7 @@ df.head()
 
 
 
-# Save the subset of the iris dataframe locally in task node
+# Save the subset of the dataframe locally in task node
 df.to_csv(outputBlobName, index = False)
 
 with open(outputBlobName, "rb") as data:
